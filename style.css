@@ -136,11 +136,8 @@ header {
     z-index: 2;
 } 
 
-.fake-power img:hover {
-    cursor: url(resources/images/point.png), auto;
-}
 
-.power {
+.power-off {
     position: absolute;
     top: calc(50% - 50px);
     left: calc(50% - 50px);
@@ -155,7 +152,7 @@ header {
     z-index: 1;
 }
 
-.fake-power {
+.power-on {
     position: absolute;
     top: calc(50% - 40px);
     left: calc(50% - 40px);
@@ -167,7 +164,7 @@ header {
     transition: box-shadow 1500ms;
 }
 
-.fake-power img {
+.power-on img {
     height: 125%;
     position: relative;
     bottom: 10px;
@@ -175,22 +172,27 @@ header {
     display: none;
 }
 
-.fake-power:hover {
-    box-shadow: 0 0 100px var(--cat10), inset 0 0 80px var(--cat10);
+.power-on img:hover {
+    cursor: url(resources/images/point.png), auto;
 }
 
-.power img {
+.power-on:hover {
+    box-shadow: 0 0 80px var(--cat10), inset 0 0 80px var(--cat10);
+    filter: drop-shadow(0 0 200px var(--cat10))
+}
+
+.power-off img {
     height: 100%;
 }
 
-.glow {
+.flashlight {
     display: block;
     position: absolute;
     transform: translate(-50%, -50%);
     width: 700px;
     height: 700px;
     border-radius: 50%;
-    background-image: radial-gradient(rgba(255, 255, 255, 0.4), transparent 60%);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.85), transparent 80%);
 }
 
 
