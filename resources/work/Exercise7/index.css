@@ -1,0 +1,38 @@
+html {
+    background-color:rgb(194, 135, 202);
+    font-family: "Sono", "Courier New", monospace;
+}
+#info {
+    text-align: right;
+}
+#summary {
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 9px;
+}
+.experience {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+.workplace {
+    font-variant: small-caps;
+}
+.jobs {
+
+}
+p {
+    margin:1px;
+    clear: right;
+}
+#icon {
+    width: 140px;
+    float: right;
+    justify-content: right;
+}
+#name {
+    margin-right: 0;
+    padding-right: 0;
+    display:flex;
+    justify-content: left;
+}

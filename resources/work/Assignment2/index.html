@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>&#9994 &#9995 &#9996</title>
+</head>
+
+<body>
+    <div class="it-all">
+        <div class="header">
+            <header class="header">
+                Rock Paper Scissors!
+            </header>
+            <div class="score">
+                <h2 id="score">Score</h2>
+                <div class="scoreboard">
+                    <div class="scores">
+                        <p>You: </p>
+                        <span id="user-score"> </span>
+                    </div>
+                    <div class="scores">
+                        <p>Computer: </p>
+                        <span id="computer-score"> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="below-header">
+            <div class="historyboard">
+                <div class="head">
+                    <h2>History</h2>
+                </div>
+                <div class="box">
+                    <table class="score-table">
+                        <tr class="table-head">
+                            <th>Round#</th>
+                            <th>You</th>
+                            <th>Computer</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="container">
+                <div class="choice">
+                    <button class="options" onclick="rockPaperScissors(this.innerText)">Rock</button>
+                    <button class="options" onclick="rockPaperScissors(this.innerText)">Paper</button>
+                    <button class="options" onclick="rockPaperScissors(this.innerText)">Scissors</button>
+                </div>
+                <div class="outcome">
+                    <h1 id="outcome"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="rock-paper-scissors.js">
+
+    </script>
+</body>
+
+</html>
